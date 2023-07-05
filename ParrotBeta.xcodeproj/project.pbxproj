@@ -13,6 +13,8 @@
 		1D6E76912A4E99C60078E73F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E76902A4E99C60078E73F /* Preview Assets.xcassets */; };
 		1D6E769F2A4E9A540078E73F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E769E2A4E9A540078E73F /* LoginView.swift */; };
 		1D6E76A12A4F633E0078E73F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E76A02A4F633E0078E73F /* RegistrationView.swift */; };
+		1D6E76A62A4F7E960078E73F /* UserQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E76A52A4F7E960078E73F /* UserQuoteView.swift */; };
+		1D6E76A92A4F8C8C0078E73F /* MainFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E76A82A4F8C8C0078E73F /* MainFeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		1D6E76902A4E99C60078E73F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D6E769E2A4E9A540078E73F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1D6E76A02A4F633E0078E73F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		1D6E76A52A4F7E960078E73F /* UserQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserQuoteView.swift; sourceTree = "<group>"; };
+		1D6E76A82A4F8C8C0078E73F /* MainFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +87,10 @@
 		1D6E76982A4E99CE0078E73F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				1D6E769B2A4E9A0A0078E73F /* Authentication */,
 				1D6E769C2A4E9A170078E73F /* Root */,
+				1D6E76A42A4F7E380078E73F /* Components */,
+				1D6E769B2A4E9A0A0078E73F /* Authentication */,
+				1D6E76A72A4F8C580078E73F /* Main Feed */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -119,6 +125,22 @@
 				1D6E768B2A4E99C40078E73F /* ContentView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		1D6E76A42A4F7E380078E73F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E76A52A4F7E960078E73F /* UserQuoteView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1D6E76A72A4F8C580078E73F /* Main Feed */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E76A82A4F8C8C0078E73F /* MainFeedView.swift */,
+			);
+			path = "Main Feed";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +216,9 @@
 				1D6E769F2A4E9A540078E73F /* LoginView.swift in Sources */,
 				1D6E768C2A4E99C40078E73F /* ContentView.swift in Sources */,
 				1D6E768A2A4E99C40078E73F /* ParrotBetaApp.swift in Sources */,
+				1D6E76A92A4F8C8C0078E73F /* MainFeedView.swift in Sources */,
 				1D6E76A12A4F633E0078E73F /* RegistrationView.swift in Sources */,
+				1D6E76A62A4F7E960078E73F /* UserQuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -97,7 +97,7 @@ struct LoginView: View {
                 .padding(10)
                 .overlay(
                         RoundedRectangle(cornerRadius: 12)
-                            .stroke(Color(.systemGray), lineWidth: 1)
+                            .stroke(Color(.systemGray3), lineWidth: 1)
                     )
             }
             

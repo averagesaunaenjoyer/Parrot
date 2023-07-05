@@ -11,7 +11,7 @@ import SwiftUI
 struct ParrotBetaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainFeedView()
         }
     }
 }
